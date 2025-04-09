@@ -1,0 +1,306 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Apr  7 01:17:50 2025
+| Host         : DESKTOP-R9-7945HX running 64-bit major release  (build 9200)
+| Command      : report_drc -file SoC_wrapper_drc_routed.rpt -pb SoC_wrapper_drc_routed.pb -rpx SoC_wrapper_drc_routed.rpx
+| Design       : SoC_wrapper
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 52
++-----------+----------+-------------------------+------------+
+| Rule      | Severity | Description             | Violations |
++-----------+----------+-------------------------+------------+
+| DPIP-2    | Warning  | Input pipelining        | 32         |
+| DPOP-4    | Warning  | MREG Output pipelining  | 16         |
+| PDCN-1569 | Warning  | LUT equation term check | 3          |
+| RTSTAT-10 | Warning  | No routable loads       | 1          |
++-----------+----------+-------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[0].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[0].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[0].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[0].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[10].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[10].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#4 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[10].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[10].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#5 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[11].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[11].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#6 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[11].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[11].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#7 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[12].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[12].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#8 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[12].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[12].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#9 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[13].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[13].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#10 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[13].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[13].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#11 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[14].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[14].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#12 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[14].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[14].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#13 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[15].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[15].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#14 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[15].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[15].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#15 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[1].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[1].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#16 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[1].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[1].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#17 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[2].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[2].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#18 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[2].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[2].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#19 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[3].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[3].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#20 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[3].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[3].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#21 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[4].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[4].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#22 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[4].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[4].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#23 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[5].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[5].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#24 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[5].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[5].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#25 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[6].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[6].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#26 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[6].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[6].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#27 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[7].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[7].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#28 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[7].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[7].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#29 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[8].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[8].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#30 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[8].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[8].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#31 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[9].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[9].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#32 Warning
+Input pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[9].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[9].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-4#1 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[0].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[0].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#2 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[10].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[10].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#3 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[11].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[11].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#4 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[12].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[12].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#5 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[13].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[13].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#6 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[14].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[14].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#7 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[15].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[15].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#8 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[1].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[1].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#9 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[2].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[2].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#10 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[3].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[3].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#11 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[4].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[4].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#12 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[5].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[5].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#13 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[6].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[6].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#14 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[7].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[7].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#15 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[8].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[8].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#16 Warning
+MREG Output pipelining  
+DSP SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[9].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage SoC_i/MY_IP_0/inst/td/dtp/PU_array/PU_instances[9].PU_mul_add/mul/mult/U0/i_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PDCN-1569#1 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1 (pin dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1/I0) is not included in the LUT equation: 'O5=(A2*A4)+(A2*(~A4)*(~A3))+((~A2))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#2 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.id_state[0]_i_1 (pin dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.id_state[0]_i_1/I0) is not included in the LUT equation: 'O6=(A6+~A6)*((A2))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#3 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1 (pin dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1/I1) is not included in the LUT equation: 'O5=(A2*A4)+(A2*(~A4)*(~A3))+((~A2))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+41 net(s) have no routable loads. The problem bus(es) and/or net(s) are SoC_i/MY_IP_0/inst/AXI_dina_w[16], SoC_i/MY_IP_0/inst/AXI_dina_w[17],
+SoC_i/MY_IP_0/inst/AXI_dina_w[18], SoC_i/MY_IP_0/inst/AXI_dina_w[19],
+SoC_i/MY_IP_0/inst/AXI_dina_w[20], SoC_i/MY_IP_0/inst/AXI_dina_w[21],
+SoC_i/MY_IP_0/inst/AXI_dina_w[22], SoC_i/MY_IP_0/inst/AXI_dina_w[23],
+SoC_i/MY_IP_0/inst/AXI_dina_w[24], SoC_i/MY_IP_0/inst/AXI_dina_w[25],
+SoC_i/MY_IP_0/inst/AXI_dina_w[26], SoC_i/MY_IP_0/inst/AXI_dina_w[27],
+SoC_i/MY_IP_0/inst/AXI_dina_w[28], SoC_i/MY_IP_0/inst/AXI_dina_w[29],
+SoC_i/MY_IP_0/inst/AXI_dina_w[30] (the first 15 of 39 listed nets/buses).
+Related violations: <none>
+
+

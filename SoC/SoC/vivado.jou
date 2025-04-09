@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Apr  8 14:05:45 2025
+# Process ID: 71420
+# Current directory: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/SoC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent73628 D:\GiaPhuc\Project_1\Dense_0\AXI_MY_IP\SoC\SoC.xpr
+# Log file: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/SoC/vivado.log
+# Journal file: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/SoC\vivado.jou
+# Running On        :DESKTOP-R9-7945HX
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 9 7945HX with Radeon Graphics        
+# CPU Frequency     :2495 MHz
+# CPU Physical cores:16
+# CPU Logical cores :32
+# Host memory       :16308 MB
+# Swap memory       :21510 MB
+# Total Virtual     :37818 MB
+# Available Virtual :14447 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/SoC/SoC.xpr
+update_compile_order -fileset sources_1
