@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xck26-sfvc784-2LV-c" LaunchTime="1743176654" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/MY_IP.dcp">
+  <File Type="PA-TCL" Name="MY_IP.tcl"/>
+  <File Type="REPORTS-TCL" Name="MY_IP_reports.tcl"/>
+  <File Type="RDS-RDS" Name="MY_IP.vds"/>
+  <File Type="RDS-UTIL" Name="MY_IP_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MY_IP_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MY_IP.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/ila_top/ila_top.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mult/mult.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/ip/mult/mult.xci"/>
+        <Attr Name="ImportTime" Val="1741874227"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/BUF_group.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/imports/new/BUF_group.sv"/>
+        <Attr Name="ImportTime" Val="1740723474"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/adder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/imports/new/adder.sv"/>
+        <Attr Name="ImportTime" Val="1733746404"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/adder_tree_16.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/imports/new/adder_tree_16.sv"/>
+        <Attr Name="ImportTime" Val="1741666224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/controller.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/new/controller.sv"/>
+        <Attr Name="ImportTime" Val="1741329201"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/data_buffer.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/imports/new/data_buffer.sv"/>
+        <Attr Name="ImportTime" Val="1741338648"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/datapath.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/new/datapath.sv"/>
+        <Attr Name="ImportTime" Val="1741665153"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/fxp_mult.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/new/fxp_mult.sv"/>
+        <Attr Name="ImportTime" Val="1740625100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/ping_pong_buffer.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/imports/new/ping_pong_buffer.sv"/>
+        <Attr Name="ImportTime" Val="1741612590"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/process_unit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/new/process_unit.sv"/>
+        <Attr Name="ImportTime" Val="1741608015"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/pu_array.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/new/pu_array.sv"/>
+        <Attr Name="ImportTime" Val="1741665125"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/top_design.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FC_64/FC_64.srcs/sources_1/new/top_design.sv"/>
+        <Attr Name="ImportTime" Val="1742995471"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/AXI_MY_IP/common.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../common.vh"/>
+        <Attr Name="ImportTime" Val="1743048681"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/AXI_MY_IP/MY_IP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_IP.v"/>
+        <Attr Name="ImportTime" Val="1743048672"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/ip_repo/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MY_IP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cons_axi.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/MY_IP.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

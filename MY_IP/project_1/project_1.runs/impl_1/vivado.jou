@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Mar 28 22:47:16 2025
+# Process ID: 3304
+# Current directory: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log MY_IP.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MY_IP.tcl -notrace
+# Log file: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/project_1.runs/impl_1/MY_IP.vdi
+# Journal file: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/project_1.runs/impl_1\vivado.jou
+# Running On        :DESKTOP-R9-7945HX
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 9 7945HX with Radeon Graphics        
+# CPU Frequency     :2495 MHz
+# CPU Physical cores:16
+# CPU Logical cores :32
+# Host memory       :16308 MB
+# Swap memory       :21561 MB
+# Total Virtual     :37869 MB
+# Available Virtual :8463 MB
+#-----------------------------------------------------------
+source MY_IP.tcl -notrace

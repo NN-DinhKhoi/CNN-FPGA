@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Apr  6 22:43:54 2025
+# Process ID: 27540
+# Current directory: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28284 D:\GiaPhuc\Project_1\Dense_0\AXI_MY_IP\project_1\ip_repo\tmp_edit_project.xpr
+# Log file: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo/vivado.log
+# Journal file: D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo\vivado.jou
+# Running On        :DESKTOP-R9-7945HX
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 9 7945HX with Radeon Graphics        
+# CPU Frequency     :2495 MHz
+# CPU Physical cores:16
+# CPU Logical cores :32
+# Host memory       :16308 MB
+# Swap memory       :21510 MB
+# Total Virtual     :37818 MB
+# Available Virtual :19874 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo/tmp_edit_project.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {D:\GiaPhuc\Project_1\Dense_0\AXI_MY_IP\project_1\ip_repo\component.xml}
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 19 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo
+set_property core_revision 20 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 21 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo
+set_property core_revision 22 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 23 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo
+set_property core_revision 24 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/GiaPhuc/Project_1/Dense_0/AXI_MY_IP/project_1/ip_repo
