@@ -1,0 +1,149 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue Mar 25 11:30:06 2025
+| Host         : DESKTOP-R9-7945HX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FC_64_bd_FC_64_IP_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of FC_64_bd_FC_64_IP_0_0 (xilinx.com:user:FC_64_IP:1.0) from (Rev. 11) to (Rev. 13)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'FC_64_bd_FC_64_IP_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'neuron_done'
+
+-Upgrade has removed port 'neuron_out'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue Mar 25 11:21:24 2025
+| Host         : DESKTOP-R9-7945HX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FC_64_bd_FC_64_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FC_64_bd_FC_64_IP_0_0 (xilinx.com:user:FC_64_IP:1.0) from (Rev. 8) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue Mar 25 10:53:51 2025
+| Host         : DESKTOP-R9-7945HX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FC_64_bd_FC_64_IP_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of FC_64_bd_FC_64_IP_0_0 (xilinx.com:user:FC_64_IP:1.0) from (Rev. 7) to (Rev. 8)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'FC_64_bd_FC_64_IP_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'input_bias' width 32 differs from original width 16
+
+-Upgraded port 'input_data' width 32 differs from original width 16
+
+-Upgraded port 'input_weight' width 32 differs from original width 16
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue Mar 25 10:50:43 2025
+| Host         : DESKTOP-R9-7945HX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FC_64_bd_FC_64_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FC_64_bd_FC_64_IP_0_0 (xilinx.com:user:FC_64_IP:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue Mar 25 10:05:47 2025
+| Host         : DESKTOP-R9-7945HX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FC_64_bd_FC_64_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FC_64_bd_FC_64_IP_0_0 (xilinx.com:user:FC_64_IP:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue Mar 25 10:02:35 2025
+| Host         : DESKTOP-R9-7945HX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FC_64_bd_FC_64_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FC_64_bd_FC_64_IP_0_0 (xilinx.com:user:FC_64_IP:1.0) from (Rev. 3) to (Rev. 5)
+

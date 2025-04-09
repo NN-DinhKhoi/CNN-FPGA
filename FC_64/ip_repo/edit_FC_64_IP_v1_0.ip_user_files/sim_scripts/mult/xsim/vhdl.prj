@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../edit_FC_64_IP_v1_0.gen/sources_1/ip/mult/sim/mult.vhd" \
+
+# Do not sort compile order
+nosort

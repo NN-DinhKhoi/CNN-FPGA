@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER FC_64_IP
+	OPTION supported_peripherals = (FC_64_IP);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = FC_64_IP;
+END DRIVER

@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.sim/sim_1/synth/func/xsim/controller_tb_func_synth.v,1741666729,verilog,,,,controller1;glbl,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/imports/new/PU_array_tb.sv,1740626260,systemVerilog,,,,PU_array_tb,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/imports/new/data_buffer_tb.sv,1740724722,systemVerilog,,,,data_buffer_tb,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/new/controller_tb.sv,1741666343,systemVerilog,,,,controller_tb,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/new/fxp_mult_tb.sv,1740626216,systemVerilog,,,,fxp_mult_tb,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/new/top_design_tb.sv,1740999695,systemVerilog,,,,top_design_tb,,uvm,,,,,,

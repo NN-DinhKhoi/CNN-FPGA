@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"controller_tb_func_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../FC_64.srcs/sim_1/new/controller_tb.sv" \
+
+# Do not sort compile order
+nosort

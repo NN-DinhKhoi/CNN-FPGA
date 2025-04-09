@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.sim/sim_1/synth/timing/xsim/data_buffer_tb_time_synth.v,1741613444,verilog,,,,IBUF_HD2816;IBUF_HD2817;IBUF_HD2818;IBUF_HD2819;IBUF_HD2820;IBUF_HD2821;IBUF_HD2822;IBUF_HD2823;IBUF_HD2824;IBUF_HD2825;IBUF_HD2826;IBUF_HD2827;IBUF_HD2828;IBUF_HD2829;IBUF_HD2830;IBUF_HD2831;IBUF_HD2832;IBUF_HD2833;IBUF_HD2834;IBUF_HD2835;IBUF_HD2836;IBUF_HD2837;IBUF_HD2838;IBUF_HD2839;IBUF_HD2840;IBUF_HD2841;IBUF_HD2842;IBUF_HD2843;IBUF_HD2844;IBUF_HD2845;IBUF_HD2846;IBUF_HD2847;IBUF_HD2848;IBUF_HD2849;IBUF_HD2850;IBUF_UNIQ_BASE_;data_buffer;glbl,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/imports/new/data_buffer_tb.sv,1740724722,systemVerilog,,,,data_buffer_tb,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/new/fxp_mult_tb.sv,1740626216,systemVerilog,,,,fxp_mult_tb,,uvm,,,,,,
+D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/new/top_design_tb.sv,1740999695,systemVerilog,,,,top_design_tb,,uvm,,,,,,

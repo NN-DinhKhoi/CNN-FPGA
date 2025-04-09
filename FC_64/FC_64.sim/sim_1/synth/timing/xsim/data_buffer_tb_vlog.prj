@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"data_buffer_tb_time_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../FC_64.srcs/sim_1/imports/new/data_buffer_tb.sv" \
+
+# Do not sort compile order
+nosort

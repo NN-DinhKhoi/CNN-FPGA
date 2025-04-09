@@ -1,0 +1,17 @@
+create_clock -period 12.500 [get_ports clk]
+
+set_input_delay -clock [get_clocks clk] -max 5.000 [get_ports nreset]
+set_input_delay -clock [get_clocks clk] -max 5.000 [get_ports load_en]
+set_input_delay -clock [get_clocks clk] -max 5.000 [get_ports in_data]
+set_input_delay -clock [get_clocks clk] -max 5.000 [get_ports weight]
+set_input_delay -clock [get_clocks clk] -max 5.000 [get_ports bias]
+set_output_delay -clock [get_clocks clk] -max 5.000 [get_ports neuron_out]
+set_output_delay -clock [get_clocks clk] -max 5.000 [get_ports neuron_done]
+
+set_input_delay -clock [get_clocks clk] -min 3.000 [get_ports nreset]
+set_input_delay -clock [get_clocks clk] -min 3.000 [get_ports load_en]
+set_input_delay -clock [get_clocks clk] -min 3.000 [get_ports in_data]
+set_input_delay -clock [get_clocks clk] -min 3.000 [get_ports weight]
+set_input_delay -clock [get_clocks clk] -min 3.000 [get_ports bias]
+set_output_delay -clock [get_clocks clk] -min 3.000 [get_ports neuron_out]
+set_output_delay -clock [get_clocks clk] -min 3.000 [get_ports neuron_done]

@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../FC_64.srcs/sources_1/imports/new/BUF_group.sv" \
+"../../../../FC_64.srcs/sources_1/imports/new/adder.sv" \
+"../../../../FC_64.srcs/sources_1/imports/new/adder_tree_16.sv" \
+"../../../../FC_64.srcs/sources_1/new/controller.sv" \
+"../../../../FC_64.srcs/sources_1/imports/new/data_buffer.sv" \
+"../../../../FC_64.srcs/sources_1/new/datapath.sv" \
+"../../../../FC_64.srcs/sources_1/new/fxp_mult.sv" \
+"../../../../FC_64.srcs/sources_1/imports/new/ping_pong_buffer.sv" \
+"../../../../FC_64.srcs/sources_1/new/process_unit.sv" \
+"../../../../FC_64.srcs/sources_1/new/pu_array.sv" \
+"../../../../FC_64.srcs/sources_1/new/top_design.sv" \
+"../../../../FC_64.srcs/sim_1/new/top_design_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

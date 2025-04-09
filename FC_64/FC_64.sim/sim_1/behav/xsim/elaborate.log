@@ -1,0 +1,43 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/GiaPhuc/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_13 -L xbip_pipe_v3_0_9 -L xbip_bram18k_v3_0_9 -L mult_gen_v12_0_21 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_design_tb_behav xil_defaultlib.top_design_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_13.xbip_utils_v3_0_13_pkg
+Compiling package mult_gen_v12_0_21.mult_gen_v12_0_21_viv_comp
+Compiling package mult_gen_v12_0_21.mult_gen_v12_0_21_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_21.dsp_pkg
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.ping_pong_buffer(DWIDTH=16)
+Compiling module xil_defaultlib.data_buffer(DWIDTH=16)
+Compiling module xil_defaultlib.data_buffer(DWIDTH=16,BUFFER_SIZ...
+Compiling module xil_defaultlib.BUF_group(DWIDTH=16)
+Compiling architecture xilinx of entity mult_gen_v12_0_21.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_21.op_resize [\op_resize(ao_width=27)\]
+Compiling architecture xilinx of entity mult_gen_v12_0_21.dsp [\dsp(c_xdevicefamily="zynquplus"...]
+Compiling architecture xilinx of entity mult_gen_v12_0_21.mult_gen_v12_0_21_viv [\mult_gen_v12_0_21_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_21.mult_gen_v12_0_21 [\mult_gen_v12_0_21(c_xdevicefami...]
+Compiling architecture mult_arch of entity xil_defaultlib.mult [mult_default]
+Compiling module xil_defaultlib.fxp_mult(DATA_WIDTH=16,FRACTIONA...
+Compiling module xil_defaultlib.process_unit(fractional=10)
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.adder_tree_16(DATA_WIDTH=16)
+Compiling module xil_defaultlib.pu_array(fractional=10)
+Compiling module xil_defaultlib.datapath(DWIDTH=16,fractional=10...
+Compiling module xil_defaultlib.top_design
+Compiling module xil_defaultlib.top_design_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_design_tb_behav

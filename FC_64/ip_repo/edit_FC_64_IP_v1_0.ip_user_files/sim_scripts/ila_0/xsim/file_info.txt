@@ -1,0 +1,2 @@
+ila_0.v,verilog,xil_defaultlib,../../../../edit_FC_64_IP_v1_0.gen/sources_1/ip/ila_0/sim/ila_0.v,incdir="../../../../edit_FC_64_IP_v1_0.gen/sources_1/ip/ila_0/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

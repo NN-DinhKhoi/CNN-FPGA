@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+$stop called at time : 6545 ns : File "D:/GiaPhuc/Project_1/Dense_0/FC_64/FC_64.srcs/sim_1/new/top_design_tb.sv" Line 152
+INFO: xsimkernel Simulation Memory Usage: 351456 KB (Peak: 351456 KB), Simulation CPU Usage: 15327 ms
