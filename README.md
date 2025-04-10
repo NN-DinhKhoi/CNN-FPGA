@@ -21,5 +21,4 @@ This project implements a **Fully Connected (FC) layer** of a Convolutional Neur
 
 - **Vivado Design Suite** (Block Design, Synthesis)
 - **PetaLinux Tools** (Linux build for Zynq)
-- **AXI DMA IP** (for high-speed data transfer)
  
